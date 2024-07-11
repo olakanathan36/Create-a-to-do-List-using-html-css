@@ -1,0 +1,75 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+   
+}
+.list div{
+    display: flex;
+    justify-content: center;
+}
+.todo-quotes{
+
+}
+.main div{
+    text-align: center;
+
+}
+h1{
+    color: #00BFFF;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main{
+    
+    border: 2px solid;
+    margin: 100px;
+    height: 500px;
+    width: 600px;
+    background-color: #f9ffea;
+}
+#search{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    height: 33px;
+    width: 50px;
+    background-color: #00BFFF;
+    border-color: white;
+    border-radius: 5px;
+
+}
+.list input{
+    width: 10%;
+    border-color: #00BFFF;
+    background-color: #00BFFF;
+}
+.list div{
+    padding: 10px;
+    margin-right: 50%;
+}
+.filters{
+    display: flex;
+    justify-content: right;
+}
+.filters div{
+    padding: 10px;
+    margin-right: 10%;
+}
+.one:checked~p{
+    text-decoration: line-through;
+    color: #00BFFF;
+}
+.btn-secondary,.btn-danger,.btn-success{
+   width: fit-content;
+   padding: 5px;
+
+}
